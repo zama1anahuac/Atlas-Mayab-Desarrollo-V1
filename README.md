@@ -1,6 +1,6 @@
 # Atlas Mayab · V1.0 cerrada para revisión privada del profesor
 
-**Corte:** 20 de noviembre de 2026. **Estado:** V1.0 técnica local revisable, sin aprobación científica/institucional ni permiso de publicación abierta.
+**Corte:** 21:00, 20 de noviembre de 2026. **Estado:** V1.0 técnica local revisable, sin aprobación científica/institucional ni permiso de publicación abierta.
 
 ## Abrir el Atlas
 
