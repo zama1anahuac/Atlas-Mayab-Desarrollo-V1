@@ -1,3 +1,7 @@
+> **Abrir la plataforma:** [Atlas Mayab · Explorar el sitio](./site/index.html) (en GitHub Pages, la raíz redirige automáticamente a `site/index.html`).
+>
+> **Aviso de privacidad:** este repositorio está actualmente marcado como **público** y contiene la carpeta `private/`. Ese nombre de carpeta NO restringe el acceso. Para proteger los Excel internos, convierta este repositorio en privado y publique únicamente los archivos autorizados de `site/` en un repositorio público distinto. El historial del repositorio público también debe considerarse expuesto.
+
 # Atlas Mayab · V1.0 cerrada para revisión privada del profesor
 
 **Corte:** 21:00, 20 de noviembre de 2026. **Estado:** V1.0 técnica local revisable, sin aprobación científica/institucional ni permiso de publicación abierta.
