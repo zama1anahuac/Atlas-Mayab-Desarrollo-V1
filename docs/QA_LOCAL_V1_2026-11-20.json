@@ -1,0 +1,179 @@
+{
+  "fecha": "2026-11-20",
+  "version": "1.0",
+  "ejecutadas": 26,
+  "aprobadas": 26,
+  "fallidas": 0,
+  "no_ejecutadas": 1,
+  "limites": [
+    "No se probó GitHub Pages remoto (sin URL real).",
+    "Pruebas mobile: viewport Chromium emulado, no dispositivo físico.",
+    "No se auditó con lector de pantalla ni evaluación WCAG completa.",
+    "No se generaron PDF originales por falta de autorización de difusión; prueba MIME application/pdf no aplica.",
+    "La conformidad técnica no representa revisión científica ni docente."
+  ],
+  "resultados": [
+    {
+      "prueba": "Maestro editable presente",
+      "resultado": "OK",
+      "detalle": "2193394",
+      "alcance": "datos"
+    },
+    {
+      "prueba": "Conteos y PK/FK del maestro",
+      "resultado": "OK",
+      "detalle": "249/365/1157/126/5270/2730/36/747, sin PK/FK inválidas",
+      "alcance": "datos"
+    },
+    {
+      "prueba": "Exportación coincide con Excel",
+      "resultado": "OK",
+      "detalle": "Comparación completa JSON maestro",
+      "alcance": "datos"
+    },
+    {
+      "prueba": "Archivo JS se genera sin fetch",
+      "resultado": "OK",
+      "detalle": "Compatibilidad file:// y GitHub Pages",
+      "alcance": "datos"
+    },
+    {
+      "prueba": "30 conceptos y 9 celdas",
+      "resultado": "OK",
+      "detalle": "Matriz 3×3",
+      "alcance": "datos"
+    },
+    {
+      "prueba": "Corrección V1.1 pp.31",
+      "resultado": "OK",
+      "detalle": "No modifica hojas históricas",
+      "alcance": "datos"
+    },
+    {
+      "prueba": "Roles pregunta-variable no inferidos",
+      "resultado": "OK",
+      "detalle": "0/116 efectos identificados",
+      "alcance": "datos"
+    },
+    {
+      "prueba": "126 vínculos nuevos separados de 6 heredados",
+      "resultado": "OK",
+      "detalle": "No son investigaciones",
+      "alcance": "datos"
+    },
+    {
+      "prueba": "Motor de exploración en Node.js",
+      "resultado": "OK",
+      "detalle": "RESULTADO 17 pruebas lógicas exitosas",
+      "alcance": "motor_js"
+    },
+    {
+      "prueba": "Sintaxis JavaScript",
+      "resultado": "OK",
+      "detalle": "node --check válido",
+      "alcance": "estatico"
+    },
+    {
+      "prueba": "No existen rutas locales huérfanas en HTML",
+      "resultado": "OK",
+      "detalle": "9 rutas, faltantes: []",
+      "alcance": "estatico"
+    },
+    {
+      "prueba": "Navegación por anclas internas",
+      "resultado": "OK",
+      "detalle": "14 anclas, 0 destinos faltantes si OK",
+      "alcance": "estatico"
+    },
+    {
+      "prueba": "Sin archivos PDF públicos ni enlaces rotos",
+      "resultado": "OK",
+      "detalle": "Fichas HTML originales; impresión PDF en navegador. MIME PDF no aplica.",
+      "alcance": "estatico"
+    },
+    {
+      "prueba": "Sin libros ni diapositivas redistribuidos",
+      "resultado": "OK",
+      "detalle": "PDF rector y presentación excluidos",
+      "alcance": "derechos"
+    },
+    {
+      "prueba": "Aviso de publicación bloqueada",
+      "resultado": "OK",
+      "detalle": "NO_PUBLICAR en /site",
+      "alcance": "derechos"
+    },
+    {
+      "prueba": "Archivos /site no contienen secretos aparentes",
+      "resultado": "OK",
+      "detalle": "No keys o credenciales en frontend",
+      "alcance": "seguridad"
+    },
+    {
+      "prueba": "HTTP ruta de proyecto: index.html",
+      "resultado": "OK",
+      "detalle": "200, text/html, 19552 bytes",
+      "alcance": "http_nested"
+    },
+    {
+      "prueba": "HTTP ruta de proyecto: assets/styles.css",
+      "resultado": "OK",
+      "detalle": "200, text/css, 27872 bytes",
+      "alcance": "http_nested"
+    },
+    {
+      "prueba": "HTTP ruta de proyecto: assets/app.js",
+      "resultado": "OK",
+      "detalle": "200, text/javascript, 27991 bytes",
+      "alcance": "http_nested"
+    },
+    {
+      "prueba": "HTTP ruta de proyecto: assets/brand-mark.svg",
+      "resultado": "OK",
+      "detalle": "200, image/svg+xml, 447 bytes",
+      "alcance": "http_nested"
+    },
+    {
+      "prueba": "HTTP ruta de proyecto: assets/model-art.svg",
+      "resultado": "OK",
+      "detalle": "200, image/svg+xml, 2332 bytes",
+      "alcance": "http_nested"
+    },
+    {
+      "prueba": "HTTP ruta de proyecto: data/atlas.json",
+      "resultado": "OK",
+      "detalle": "200, application/json, 3835017 bytes",
+      "alcance": "http_nested"
+    },
+    {
+      "prueba": "HTTP ruta de proyecto: data/atlas-data.js",
+      "resultado": "OK",
+      "detalle": "200, text/javascript, 3835097 bytes",
+      "alcance": "http_nested"
+    },
+    {
+      "prueba": "HTTP ruta de proyecto: data/investigaciones.csv",
+      "resultado": "OK",
+      "detalle": "200, text/csv, 104586 bytes",
+      "alcance": "http_nested"
+    },
+    {
+      "prueba": "HTTP ruta de proyecto: data/preguntas.csv",
+      "resultado": "OK",
+      "detalle": "200, text/csv, 76496 bytes",
+      "alcance": "http_nested"
+    },
+    {
+      "prueba": "HTTP ruta de proyecto: data/vinculos_co.csv",
+      "resultado": "OK",
+      "detalle": "200, text/csv, 61314 bytes",
+      "alcance": "http_nested"
+    },
+    {
+      "prueba": "Ejecución Chromium / navegador real",
+      "resultado": "ERROR",
+      "detalle": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:37991/atlas-revision/index.html",
+      "alcance": "no_ejecutado"
+    }
+  ]
+}

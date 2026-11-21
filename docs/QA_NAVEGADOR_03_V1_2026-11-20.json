@@ -1,0 +1,220 @@
+{
+  "metodo": "Chromium con DOM, CSS, SVG y scripts reales inyectados en memoria; sin navegación real por bloqueo del entorno",
+  "fecha": "2026-11-20",
+  "conteo": 41,
+  "exitosas": 41,
+  "fallidas": [],
+  "pruebas": [
+    {
+      "prueba": "Inicialización navegador Chromium real",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Matriz 3×3 y 30 constructos",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CO por defecto: 58 vínculos directos/razonados",
+      "estado": "OK",
+      "detalle": "58"
+    },
+    {
+      "prueba": "Atlas general: 249 propuestas únicas",
+      "estado": "OK",
+      "detalle": "249"
+    },
+    {
+      "prueba": "Catálogo histórico paginado",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Imagen original renderizable",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Enlace saltar al contenido visible con foco",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CO con reservas: 68 vínculos parciales",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CO filtra nivel + etapa reales",
+      "estado": "OK",
+      "detalle": "5"
+    },
+    {
+      "prueba": "CO caso vacío sin vínculos inventados",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CO buscador sin resultados",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CO matriz gráfica interactiva",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Matriz operable por teclado Enter",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "General tema restringe",
+      "estado": "OK",
+      "detalle": "22"
+    },
+    {
+      "prueba": "Recorrido completo a través de rutas reales",
+      "estado": "OK",
+      "detalle": "1"
+    },
+    {
+      "prueba": "Ficha abierta con preguntas y procedencia",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Ficha oculta salto CO si la propuesta carece de vínculos",
+      "estado": "OK",
+      "detalle": "El primer filtro no garantiza un caso sin vínculo"
+    },
+    {
+      "prueba": "Ficha enlaza a Atlas general sin ID nuevo",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Sin vínculo CO no muestra botón de salto",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Búsqueda de ID original",
+      "estado": "OK",
+      "detalle": "1"
+    },
+    {
+      "prueba": "Ficha con CO propone salto a Explorador 2",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Impresión a PDF de ficha original",
+      "estado": "OK",
+      "detalle": "315713 bytes, test de exportación sin archivo público"
+    },
+    {
+      "prueba": "Preguntas en ficha no duplicadas por vínculos",
+      "estado": "OK",
+      "detalle": "2"
+    },
+    {
+      "prueba": "Transición Atlas general → CO mismo ID",
+      "estado": "OK",
+      "detalle": "6"
+    },
+    {
+      "prueba": "Transición muestra reservas parciales",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Ficha vuelve desde CO al mismo ID",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "General estado vacío sin filas inventadas",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Archivo histórico estado vacío",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Sin errores JS en flujo escritorio",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Viewport 320px sin scroll horizontal",
+      "estado": "OK",
+      "detalle": "{'content': 320, 'window': 320}"
+    },
+    {
+      "prueba": "Viewport 375px sin scroll horizontal",
+      "estado": "OK",
+      "detalle": "{'content': 375, 'window': 375}"
+    },
+    {
+      "prueba": "Viewport 390px sin scroll horizontal",
+      "estado": "OK",
+      "detalle": "{'content': 390, 'window': 390}"
+    },
+    {
+      "prueba": "Menú móvil revela navegación y aria-expanded",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Cierra menú móvil al navegar",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Ficha móvil dentro de pantalla",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Cerrar ficha con Escape",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Viewport 768px sin scroll horizontal",
+      "estado": "OK",
+      "detalle": "{'content': 768, 'window': 768}"
+    },
+    {
+      "prueba": "Viewport 1024px sin scroll horizontal",
+      "estado": "OK",
+      "detalle": "{'content': 1024, 'window': 1024}"
+    },
+    {
+      "prueba": "Viewport 1366px sin scroll horizontal",
+      "estado": "OK",
+      "detalle": "{'content': 1366, 'window': 1366}"
+    },
+    {
+      "prueba": "Sin fallos JavaScript durante vistas móviles",
+      "estado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "Aviso comprensible ante falta de base de datos",
+      "estado": "OK",
+      "detalle": ""
+    }
+  ],
+  "limites": [
+    "No valida solicitudes HTTP de navegador ni URL GitHub Pages real",
+    "Dispositivo móvil emulado, no hardware físico",
+    "No se ejecutaron pruebas de lector de pantalla",
+    "La carga mediante file:// no se pudo probar extremo a extremo"
+  ]
+}
